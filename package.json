@@ -1,6 +1,6 @@
 {
   "name": "@artherachain/mpc-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Arthera distributed login & signing SDK",
   "repository": "https://github.com/artheranet/js-mpc-sdk",
   "maintainers": "dev@arthera.net",
@@ -23,24 +23,9 @@
     "jose": "^5.2.0"
   },
   "devDependencies": {
-    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
-    "@babel/plugin-transform-runtime": "^7.24.3",
-    "@babel/preset-env": "^7.24.4",
-    "@babel/register": "^7.21.0",
-    "@babel/runtime": "^7.21.5",
-    "@types/chai": "^4.3.14",
-    "@types/mocha": "^10.0.6",
-    "@types/node": "^16.18.96",
-    "@types/sinon": "^17.0.3",
-    "chai": "^4.3.7",
-    "cross-env": "^7.0.3",
-    "mocha": "^10.4.0",
-    "ts-node": "^10.9.2",
-    "typescript": "^4.9.5",
-    "web3": "^1.8.2"
+    "typescript": "^4.9.5"
   },
   "scripts": {
-    "build": "rm -rf dist && tsc",
-    "test": "cross-env NODE_ENV=test mocha"
+    "build": "rm -rf dist && tsc"
   }
 }
