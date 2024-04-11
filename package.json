@@ -1,0 +1,46 @@
+{
+  "name": "@artherachain/mpc-sdk",
+  "version": "1.0.2",
+  "description": "Arthera distributed login & signing SDK",
+  "repository": "https://github.com/artheranet/js-mpc-sdk",
+  "maintainers": "dev@arthera.net",
+  "license": "LGPL-3.0-or-later",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "dependencies": {
+    "@ethersproject/abstract-provider": "^5.7.0",
+    "@ethersproject/abstract-signer": "^5.7.0",
+    "@ethersproject/address": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/hash": "^5.7.0",
+    "@ethersproject/keccak256": "^5.7.0",
+    "@ethersproject/properties": "^5.7.0",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/transactions": "^5.7.0",
+    "jose": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.20.7",
+    "@babel/plugin-transform-runtime": "^7.24.3",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/register": "^7.21.0",
+    "@babel/runtime": "^7.21.5",
+    "@types/chai": "^4.3.14",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^16.18.96",
+    "@types/sinon": "^17.0.3",
+    "chai": "^4.3.7",
+    "cross-env": "^7.0.3",
+    "mocha": "^10.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5",
+    "web3": "^1.8.2"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "cross-env NODE_ENV=test mocha"
+  }
+}
