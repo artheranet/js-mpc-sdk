@@ -1,12 +1,12 @@
 {
   "name": "@artherachain/mpc-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Arthera distributed login & signing SDK",
   "repository": "https://github.com/artheranet/js-mpc-sdk",
   "maintainers": "dev@arthera.net",
   "license": "LGPL-3.0-or-later",
   "main": "dist/index.js",
-  "types": "types/src/index.d.ts",
+  "types": "dist/index.d.ts",
   "files": [
     "dist/**/*",
     "types/**/*"
