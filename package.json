@@ -6,7 +6,7 @@
   "maintainers": "dev@arthera.net",
   "license": "LGPL-3.0-or-later",
   "main": "dist/index.js",
-  "types": "types/index.d.ts",
+  "types": "types/src/index.d.ts",
   "files": [
     "dist/**/*",
     "types/**/*"
