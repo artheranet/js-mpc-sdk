@@ -1,6 +1,6 @@
 {
   "name": "@artherachain/mpc-sdk",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Arthera distributed login & signing SDK",
   "repository": "https://github.com/artheranet/js-mpc-sdk",
   "maintainers": "dev@arthera.net",
