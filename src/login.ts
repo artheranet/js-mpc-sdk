@@ -78,7 +78,7 @@ export class ArtheraLogin {
         return jsonResponse.otp;
     }
 
-    async loginWithOtp(user_id: string, otp: string): Promise<string> {
+    async loginWithOtp(user_id: string, otp: string, seed?: number): Promise<string> {
         let resp = await fetch(`${MPC_AUTH_ENDPOINT}/v1/login_otp`, {
             method: 'POST',
             headers: {
@@ -87,7 +87,7 @@ export class ArtheraLogin {
             body: JSON.stringify({
                 user_id,
                 otp,
-                seed: this.otpSeed,
+                seed: seed ? seed : this.otpSeed,
             }),
         });
 
