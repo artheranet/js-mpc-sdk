@@ -6,9 +6,10 @@
   "maintainers": "dev@arthera.net",
   "license": "LGPL-3.0-or-later",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "types/index.d.ts",
   "files": [
-    "dist/**/*"
+    "dist/**/*",
+    "types/**/*"
   ],
   "dependencies": {
     "@ethersproject/abstract-provider": "^5.7.0",
