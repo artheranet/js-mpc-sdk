@@ -2,7 +2,7 @@ import {JsonRpcProvider} from "@ethersproject/providers";
 import {ARTHERA_NETWORK_DETAILS, MPC_AUTH_ENDPOINT} from "./constants";
 import {computeAddress} from "@ethersproject/transactions";
 import {ArtheraSigner} from "./signer";
-import {decodeJwt} from "jose";
+import {decodeJwt} from "./jwt/decode";
 
 export enum AuthMethod {
     GOOGLE = "google",
